@@ -33,7 +33,7 @@
         
         /* নেভিগেশন বার */
         header {
-            background: var(--gradient);
+            background: #1a3a52;
             color: white;
             padding: 15px 0;
             position: fixed;
