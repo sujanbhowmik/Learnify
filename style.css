@@ -18,7 +18,7 @@
         }
         
         body {
-            background-color: #f9f9f9;
+            background-color: #1a3a52;
             color: #333;
             line-height: 1.6;
             overflow-x: hidden;
@@ -101,7 +101,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,128L48,117.3C96,107,192,85,288,112C384,139,480,213,576,218.7C672,224,768,160,864,138.7C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>');
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,128L48,117.3C96,107,192,85,288,85.3C384,85,480,107,576,122.7C672,139,768,149,864,144C960,139,1056,117,1152,112C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
             background-size: cover;
             background-position: bottom;
             opacity: 0.1;
@@ -198,13 +198,14 @@
         /* বৈশিষ্ট্য সেকশন */
         .features {
             padding: 80px 0;
+            background-color: #1a3a52;
         }
         
         .section-title {
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 20px;
-            color: var(--primary);
+            color: white;
             position: relative;
             width: 100%;
         }
@@ -225,7 +226,7 @@
             text-align: center;
             font-size: 1.2rem;
             margin-bottom: 60px;
-            color: #666;
+            color: #bbb;
             max-width: 700px;
             margin-left: auto;
             margin-right: auto;
@@ -359,6 +360,7 @@
         .pricing {
             padding: 80px 0;
             text-align: center;
+            background-color: #1a3a52;
         }
         
         .price-card {
@@ -484,7 +486,7 @@
         /* রিভিউ সেকশন */
         .reviews {
             padding: 80px 0;
-            background: var(--light);
+            background: #1a3a52;
             border-radius: 20px;
             margin: 50px 0;
         }
